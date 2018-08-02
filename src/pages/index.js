@@ -30,7 +30,12 @@ export default class IndexPage extends React.Component {
                   <div className="column is-one-third">
                     <div className="field">
                       <div className="field">
-                        <button className="button is-success is-medium is-fullwidth">Subscribe</button>
+                        <button
+                          className="button is-success is-medium is-fullwidth"
+                          type="submit"
+                          >
+                            Subscribe
+                        </button>
                       </div>
                     </div>
                   </div>
