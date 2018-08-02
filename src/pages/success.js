@@ -1,5 +1,4 @@
 import React from 'react'
-import PropTypes from 'prop-types'
 import Link from 'gatsby-link'
 
 export default class Success extends React.Component {

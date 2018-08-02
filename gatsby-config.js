@@ -1,6 +1,6 @@
 module.exports = {
   siteMetadata: {
-    title: 'Gatsby + Netlify CMS Starter',
+    title: 'The Educational Justice Institute',
   },
   plugins: [
     'gatsby-plugin-react-helmet',
