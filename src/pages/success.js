@@ -10,7 +10,7 @@ export default class Success extends React.Component {
         <div className="main-content">
           <div className="box jumbo-card submit-success">
             <h1 className="title is-4">Thank You</h1>
-            <p>Your submission has been recorded.  We will alert you when our website is complete.</p>
+            <p>Your email address has been recorded.  We will alert you when our website is complete.</p>
             <br />
             <Link to="/">← Back to Home Page</Link>
           </div>

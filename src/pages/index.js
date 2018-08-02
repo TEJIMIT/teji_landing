@@ -17,7 +17,7 @@ export default class IndexPage extends React.Component {
 
           <div className="main-content">
             <div className="box jumbo-card">
-              <p>Our website is under construction.  Please come back in the near future.  Subscribe to our mailing list be updated when we launch our website.</p>
+              <p>Our website is under construction.  Please come back in the near future.  Subscribe to our mailing list be notified when we launch our website.</p>
               <form
                 id="email-form"
                 name="subscribe"
