@@ -8,7 +8,7 @@ export default class IndexPage extends React.Component {
 
         <div className="mission is-hidden-desktop">
           <div className="mission-statement">
-            <h1 className="title is-6">
+            <h1 className="title is-size-6-mobile is-size-5-tablet ">
               Providing  students with non-traditional learning and social justice opportunities while preparing incarcerated students for successful reentry through education and technology.
             </h1>
           </div>

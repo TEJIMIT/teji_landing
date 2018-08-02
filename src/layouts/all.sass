@@ -103,11 +103,20 @@ $primary-invert: $kaldi-red-invert
   height: 60%
 
 .jumbo-card
-  margin: 15vh 0
+  margin-top: 5vh
   width: 60%
   font-style: italic
   background-color: rgba(255, 255, 255, 0.9)
   border-radius: 0
+
+@media (min-width: $tablet)
+  .jumbo-card
+    margin-top: 35vh
+
+@media (min-width: $desktop)
+  .jumbo-card
+    margin-top: 45vh
+
 
 #email-form
   margin: 20px 0
