@@ -7,14 +7,6 @@ export default class IndexPage extends React.Component {
     return (
       <section className="section">
         <div className="image-tint">
-          <div className="mission">
-            <div className="mission-statement">
-              <h1 className="title is-4">
-                Providing  students with non-traditional learning and social justice opportunities while preparing incarcerated students for successful reentry through education and technology.
-              </h1>
-            </div>
-          </div>
-
           <div className="main-content">
             <div className="box jumbo-card">
               <p>Our website is under construction.  Please come back in the near future.  Subscribe to our mailing list be notified when we launch our website.</p>

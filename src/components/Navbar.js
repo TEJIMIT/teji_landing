@@ -14,6 +14,13 @@ const Navbar = () => (
           </figure>
         </Link>
       </div>
+      <div className="mission">
+        <div className="mission-statement is-pulled-right">
+          <h1>
+            Providing  students with non-traditional learning and social justice opportunities while preparing incarcerated students for successful reentry through education and technology.
+          </h1>
+        </div>
+      </div>
     </div>
   </nav>
 )
