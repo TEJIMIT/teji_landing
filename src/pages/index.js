@@ -22,12 +22,12 @@ export default class IndexPage extends React.Component {
               <p>Our website is currently under construction.  Please come back in the near future.  Subscribe to be updated when we launch our website.</p>
               <form
                 id="email-form"
-                name="contact"
+                name="subscribe"
                 method="POST"
                 data-netlify="true"
                 data-netlify-honeypot="bot-field"
               >
-                <input type="hidden" name="form-name" value="contact" />
+                <input type="hidden" name="form-name" value="subscribe" />
                 <div className="columns is-tablet">
                   <div className="column is-two-third">
                     <div className="field">
