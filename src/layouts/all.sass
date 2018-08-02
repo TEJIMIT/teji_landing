@@ -40,3 +40,62 @@ $primary-invert: $kaldi-red-invert
   margin-top: 0 !important
 
 @import "~bulma"
+
+.navbar
+  background-color: rgba(194, 192, 191, 1.0)
+
+.container
+  width: 80%
+
+  .navbar &
+    width: 80%
+    display: flex
+    align-self: center
+
+.navbar-brand
+  .navbar-item
+    padding: 20px 0
+    img
+      max-height: none
+      width: 15rem
+
+.section
+  height: 90vh
+  background: url('../img/mit.jpg') center center no-repeat
+  background-size: cover
+  padding: 0
+
+  .image-tint
+    background-image: linear-gradient(to bottom, rgba(194, 192, 191, 0.2), rgb(138, 139, 140))
+    opacity: 1.0
+    background-size: cover
+    height: 90vh
+
+.main-content
+  display: flex
+  align-items: center
+  justify-content: center
+  height: 50%
+
+.jumbo-card
+  width: 60%
+  font-style: italic
+  background-color: rgba(255, 255, 255, 0.9)
+  border-radius: 0
+
+.mission
+  display: flex
+  justify-content: center
+  align-items: flex-end
+  height: 30%
+  &-statement
+    width: 70%
+    h1.title
+      text-align: center
+      color: $white
+      font-style: italic
+      font-family: Garamond Times serif
+
+
+#email-form
+  margin: 20px 0
